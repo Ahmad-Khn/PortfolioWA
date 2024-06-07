@@ -4,8 +4,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/common.css">
-    <link rel="stylesheet" href="css/contact.css">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="js/index.js">
     <title>MondialCoiffure</title>
 </head>
 <body>
@@ -17,7 +17,7 @@
 			</div>
 			<nav>
 				<ul id="mainmenu">
-					<li><a href="Info">Info</a></li>
+					<li><a href="#Info">Info</a></li>
 					<li><a href="#contact">Contact</a></li>
 				</ul>
 			</nav>
@@ -29,7 +29,7 @@
 			assisteren.
 			U kunt ook haarproducten in onze kapperszaak of online kopen.
 		</p>
-        <h1>Info</h1>
+        <h1 id="info">Info</h1>
         <section>
             <h2>Openingsuren</h2>
             Van dinsdag tot zaterdag:
@@ -48,7 +48,7 @@
         <br>
         <br>Shampooing: €2
         </section>
-        <section>
+        <section id="team">
             <h2>Ons team</h2>
             <div>
             <a href=""><img src="img/Profile.jpg" alt=""></a> 
@@ -66,7 +66,7 @@
             Rue du Trône 43
             <br>1050 Elsene, Brussel
             <br>tel. <a href="tel:+32401234567">0401234567</a>
-            <br>e-mail <a href="mailto:info@mondialcoiffure.be">info@mondialcoiffeur.be</a>
+            <br>e-mail <a href="mailto:info@mondialcoiffure.be">info@mondialcoiffure.be</a>
          </address>
          <section>
              <div>
@@ -75,7 +75,7 @@
                     <p>
                         Naam *:
                         <label for="name"></label>
-                        <input type="text" id="name" required placeholder="Lil Uzi">
+                        <input type="text" id="name" required placeholder="Naam">
                     </p>
                     <p>
                         Tel. *:
@@ -85,7 +85,7 @@
                     <p>
                         E-mail :
                         <label for="email"></label>
-                        <input type="email" id="email" required placeholder="e.g. liluzi@gmail.com">
+                        <input type="email" id="email" required placeholder="e.g. naam@gmail.com">
                     </p>
                     <p>
                         Datum *:
@@ -107,11 +107,11 @@
                     </p>
                 </form>
              </div>
-             <div>
+             <div class="map">
                 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2519.591537277116!2d4.365482715651935!3d50.83872937953079!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c3c4851119acc5%3A0x7376c93d2e64fc13!2sTroonstraat%2043%2C%201050%20Elsene!5e0!3m2!1snl!2sbe!4v1642691661093!5m2!1snl!2sbe" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
              </div>
         </section>
-    </main>
+    </main> 
     <footer class="wrapper">
         <div> 
             Copyright © 2021 Mondial Coiffure. All rights reserved.

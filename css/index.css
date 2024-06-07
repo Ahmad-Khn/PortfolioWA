@@ -1,0 +1,79 @@
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial;
+}
+body {
+    line-height: 1.6;
+    font-size: 16px;
+    color: black;
+}
+h2{
+    color: #845959;
+}
+.wrapper {
+    margin: 0 auto;
+    padding: 0 20px;
+}
+header {
+    background: #845959;
+    color: white;
+    padding: 20px 0;
+}
+header .wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+} 
+.logo h1, .logo p {
+    margin: 0; 
+}
+.logo a {
+    color: white;
+    text-decoration: none;
+    border: 2px solid white;
+}
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+}
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+}
+main {
+    padding: 20px 0;
+}
+main section {
+    margin-bottom: 40px;
+}
+#team .team-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+#team .team-gallery img {
+    width: 100%;
+    height: auto;
+}
+iframe{
+    margin: 10px;
+    border: 2px solid #845959;
+}
+footer {
+    background: black;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+@keyframes fade {
+    0%, 100% { opacity: 0; }
+    50% { opacity: 1; }
+}
+.logo h1, .logo p {
+    animation: fade 5s infinite;
+}
