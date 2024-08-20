@@ -25,4 +25,4 @@ Gebruik van LocalStorage
 Bronnen afbeeldingen:
 Profile.jpg: https://www.giraffecvs.co.uk/linkedin-profile-pictures/
 
-chatgpt:
+https://chatgpt.com/share/80e2b297-1eac-4677-9e1c-775a28c01fbc
